@@ -1,0 +1,165 @@
+*{
+    background-color:black
+  }
+  
+  .titulo{
+    color:white;
+    background-color: transparent;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:40px;
+  }
+  
+  .nom1{
+    color:white;
+    background-color: transparent;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:40px;
+    margin-top:-5px;
+  }
+  
+  .nom2{
+    color:white;
+    background-color: transparent;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:40px;
+    margin-top:-20px;
+    
+  }
+  
+  h3{
+    
+    color:white;
+    background-color: transparent;
+    font-size:90%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    
+  }
+  
+  h5,h4{
+    
+    color:white;
+    background-color: transparent;
+    font-size: 40%;
+    margin-left: 20px;
+    
+  }
+  .container-cajas{
+   
+    
+    background-color: rgb(27, 27, 58);
+   
+  }
+  .banner{
+    background-color:rgb(27, 27, 58) ;
+    grid-row-start:span 2;
+    
+   
+  }
+
+  .head{
+    margin-left: 120px;
+    background-color:transparent;
+    cursor: pointer;
+  }
+  
+   
+  .enlace{
+    background-color:rgb(44, 20, 87);
+    position:absolute;
+    margin-top:340px;
+    text-align: left;
+  
+  }
+  
+   ul,li,a{
+      list-style:none;
+      background-color:transparent;
+      color:white;
+      font-size:75%;
+    }
+  
+  
+  .jeremy{
+    
+    background-color:transparent;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    margin-top: 30px;
+    margin-left:30px;
+    border:3px solid white;
+  
+  }
+  
+  .container {
+    display: grid;
+    background-color:rgb(27, 27, 58) ;
+      
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    
+    justify-content: center;
+    }
+  
+    .card {
+      
+      margin:20px;
+      width: 250px;
+      height:250px;
+      font-size: 40px;
+      text-align: center; 
+      border: 3px solid;
+      border-radius: 18px;
+      position: relative;
+         
+      }
+  
+      .cardb {
+        background-color:rgb(44, 20, 87);
+        margin:20px;
+        width: 250px;
+        height:185px;
+        font-size: 40px;
+        text-align: left; 
+        border: 3px solid;
+        border-radius: 18px;
+        position: absolute;
+        margin-top: 60px;
+        margin-left: -5px;   
+        }
+  
+      .cardb:hover{
+        background-color:rgb(145, 95, 238);
+      }
+  
+  
+    .card2 {
+      
+      background: rgb(44, 20, 87);
+      margin:20px;
+      width:250px ;
+      height:550px;
+      font-size: 40px;
+      border: 3px solid;
+      border-radius: 10px;
+      position: relative;
+      text-align: bottom left;
+      
+      }
+  
+    .card2b{
+      background: rgb(105, 210, 237);
+      position: absolute;
+      margin:20px;
+      width:250px ;
+      height:325px;
+      border: 3px solid;
+      border-radius: 15px;
+      margin-top: -5px;
+      margin-left: -5px;
+  
+    }
