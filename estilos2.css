@@ -1,5 +1,7 @@
 *{
-    background-color:black
+    background-color:black;
+    
+    
   }
   
   .titulo{
@@ -7,15 +9,16 @@
     background-color: transparent;
     font-size: 15px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left:40px;
+    margin-left:20px;
+    color:rgb(60, 5, 163);
   }
   
   .nom1{
     color:white;
     background-color: transparent;
-    font-size: 35px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left:40px;
+    font-size: 30px;
+    font-family:century Gothic;
+    margin-left:20px;
     margin-top:-5px;
   }
   
@@ -23,19 +26,22 @@
     color:white;
     background-color: transparent;
     font-size: 35px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left:40px;
-    margin-top:-20px;
+    font-family:comic Sans MS;
+    margin-left:15px;
+    margin-top:-30px;
     
   }
+
+  
   
   h3{
     
     color:white;
     background-color: transparent;
-    font-size:90%;
-    font-family: 'Times New Roman', Times, serif;
+    font-size:110%;
+    font-family:comic Sans MS;
     margin-left: 20px;
+    margin-top:20px;
     
   }
   
@@ -43,16 +49,11 @@
     
     color:white;
     background-color: transparent;
-    font-size: 40%;
+    font-size: 50%;
     margin-left: 20px;
     
   }
-  .container-cajas{
-   
-    
-    background-color: rgb(27, 27, 58);
-   
-  }
+  
   .banner{
     background-color:rgb(27, 27, 58) ;
     grid-row-start:span 2;
@@ -61,56 +62,66 @@
   }
 
   .head{
-    margin-left: 120px;
+    margin-left: 50px;
     background-color:transparent;
     cursor: pointer;
   }
   
    
   .enlace{
-    background-color:rgb(44, 20, 87);
+    background-color: rgb(44, 20, 87);
     position:absolute;
-    margin-top:340px;
-    text-align: left;
-  
+    margin-top:270px;
+    
+    
   }
   
    ul,li,a{
       list-style:none;
       background-color:transparent;
       color:white;
-      font-size:75%;
+      font-size:80%;
+      margin-left: -8px;
     }
   
   
   .jeremy{
     
     background-color:transparent;
-    width:80px;
-    height:80px;
+    width:50px;
+    height:50px;
     border-radius:50%;
-    margin-top: 30px;
-    margin-left:30px;
+    margin-top: 15px;
+    margin-left:15px;
     border:3px solid white;
   
   }
   
   .container {
+    
+    
     display: grid;
+    width: 50%;
+    
+    margin: 0 auto;
     background-color:rgb(27, 27, 58) ;
-      
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2,1fr);
+    justify-content:center;
+    justify-items: center;
+    padding: 90px;
     
-    justify-content: center;
+
+    
+    
     }
   
     .card {
       
-      margin:20px;
-      width: 250px;
-      height:250px;
-      font-size: 40px;
+      
+      width: 150px;
+      height:150px;
+      font-size: 25px;
       text-align: center; 
       border: 3px solid;
       border-radius: 18px;
@@ -120,16 +131,15 @@
   
       .cardb {
         background-color:rgb(44, 20, 87);
-        margin:20px;
-        width: 250px;
-        height:185px;
-        font-size: 40px;
+        width: 150px;
+        height:120px;
+        font-size: 25px;
         text-align: left; 
         border: 3px solid;
         border-radius: 18px;
         position: absolute;
         margin-top: 60px;
-        margin-left: -5px;   
+        margin-left: -3px;   
         }
   
       .cardb:hover{
@@ -140,26 +150,36 @@
     .card2 {
       
       background: rgb(44, 20, 87);
-      margin:20px;
-      width:250px ;
-      height:550px;
-      font-size: 40px;
+      width:150px ;
+      height: 375px;
+      font-size: 25px;
       border: 3px solid;
       border-radius: 10px;
       position: relative;
-      text-align: bottom left;
       
       }
   
     .card2b{
-      background: rgb(105, 210, 237);
+      background-color:rgb(128, 193, 224);
       position: absolute;
-      margin:20px;
-      width:250px ;
-      height:325px;
+      width:150px ;
+      height:250px;
       border: 3px solid;
       border-radius: 15px;
       margin-top: -5px;
-      margin-left: -5px;
+      margin-left: -3px;
   
+    }
+
+    .link{
+      color:rgb(60, 5, 163);
+
+    }
+    .link:hover{
+      color:white;
+    }
+
+    .pie{
+      color:rgb(60, 5, 163);
+      margin-top: -30px;
     }

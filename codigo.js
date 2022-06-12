@@ -28,7 +28,7 @@ for (let item of datos2) {
     document.getElementById(ides[numId]).innerHTML=
         `
         <h3>${item.timeframes.daily.current} hrs </h3>
-        <h5>last week ${item.timeframes.daily.previous} hrs </h5>
+        <h5 class="pie">last week ${item.timeframes.daily.previous} hrs </h5>
         ` 
     numId++; 
         } 
@@ -42,7 +42,7 @@ function traerDatos1(){
         document.getElementById(ides[numId]).innerHTML=
             `
             <h3>${item.timeframes.weekly.current} hrs </h3>
-            <h5>last week ${item.timeframes.weekly.previous} hrs </h5>
+            <h5 class="pie">last week ${item.timeframes.weekly.previous} hrs </h5>
             ` 
         numId++; 
             } 
@@ -56,7 +56,7 @@ function traerDatos1(){
             document.getElementById(ides[numId]).innerHTML=
                 `
                 <h3>${item.timeframes.monthly.current} hrs </h3>
-                <h5>last week ${item.timeframes.monthly.previous} hrs </h5>
+                <h5 class="pie">last week ${item.timeframes.monthly.previous} hrs </h5>
                 ` 
             numId++; 
                 } 
